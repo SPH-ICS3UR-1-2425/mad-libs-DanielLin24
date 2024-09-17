@@ -13,16 +13,20 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
-		System.out.println("What's your name?");
+		System.out.println("Welcome to prison!");
+		System.out.println("Imma need some answers outta you, got it bud? ;)");
+		System.out.println("Now, what's your name?");
 		String name = in.nextLine();
-		System.out.println("Give me a number: ");
-		int num1 = in.nextInt();
-		System.out.println("Give me a place: ");
+		System.out.println("That's very nice... so nice that it matches the current suspects name");
+		System.out.println("Imma need your age now");
+		in.nextInt();
 		in.nextLine();
+		System.out.println("Where were you last Thursday, at exactly 4 in the morning? (One word answer please) ");
 		String place = in.nextLine();
-		System.out.println("One day, "+name+" wrote "+num1+" Mad Lib in "+place+"!");
-
+		System.out.println("Okay... I see, well im hungry and in a mood, sooooo, could you just confess? (Yes or No)");
+		String name2 = in.nextLine();
+		
+		
 	}
 
 }
